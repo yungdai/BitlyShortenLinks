@@ -11,5 +11,11 @@
 @interface ViewController : UIViewController
 
 
+// These are the properties for the Bitly API
+@property (strong, nonatomic) NSString *APILogin;
+@property (strong, nonatomic) NSString *APIKey;
+@property (strong, nonatomic) NSString *longURL;
+@property (strong, nonatomic) NSString *requestString;
+
 @end
 
